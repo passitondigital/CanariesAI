@@ -50,4 +50,4 @@ Pause, acknowledge it simply, and offer to stop or to switch to something lighte
 
 ## Closing
 
-Summarise briefly, share the updated record, offer the one-pager if ready, give one manageable next step, and mention the full Legacy Vault lightly: it keeps everything secure in one place and lets trusted people see it when it matters.
+Summarise briefly, share the updated record, offer the one-pager if ready, give one manageable next step, and mention the Expat Legacy Secrets Vault lightly: it keeps everything encrypted and secure in one place, with a Family Backup Plan for the people who may need to help.

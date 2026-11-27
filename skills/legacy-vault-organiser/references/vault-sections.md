@@ -1,96 +1,98 @@
-# Legacy Vault Kit: pillars, sections and fields
+# Expat Legacy Secrets Vault: pillars, sections and fields
 
-This mirrors `shared/vaultConfig.ts` in the legacy-vault-kit codebase (checked 27 November 2026). If that file is available, check it for changes. Use these section names in the vault-ready record so people can copy entries straight across. "List" means the section holds several entries of that kind.
+Read from the live vault at vault.expatlegacysecrets.com on 27 November 2026. If the code is available (the `vault/` folder of the expat-legacy-secrets-site project), check it for changes. Use these exact section and field names in the record so people can copy entries straight across.
 
-Suggested order for a first session: **Emergency info → Contacts → Personal identity → Important documents**, then whatever matters most to them.
+Suggested order for a first session: **Emergency Information → Contacts & Trusted People → Personal Identity → Important Documents**, then the Family Backup Plan, then whatever matters most to them.
 
-## Pillar 1: Essentials
+References are **last four digits or characters only**, and there are **no passwords, PINs or recovery codes** anywhere, as the vault itself asks.
 
-**Personal identity** (`personal_identity`)
-- Full name; date of birth; country of residence
-- Nationalities (list)
-- Passports (list): country, passport number, expiry date, where stored, notes
-- National IDs (list): ID type (NIE, TIE, DNI, UK national insurance…), country, ID number, where stored, notes
-- Driving licences (list): country, licence number, expiry date, where stored
+## The Essentials
 
-**Emergency info** (`emergency_info`)
-- Blood type
-- Allergies (list): allergy, severity, notes
-- Medications (list): name, dosage, frequency, prescribing doctor, pharmacy
-- Medical conditions (list): condition, date diagnosed, treating doctor, notes
-- Emergency contacts (list): name, relationship, phone, email
-- GP name and phone
+**Family Backup Plan**: helps someone you choose understand the household responsibilities they may need to take over. Naming someone doesn't give them access or contact them.
+- A name for this plan; what you'd like help to cover; next review date; where to find agreed access instructions
+- Household responsibilities (list), each with: does it apply; which to work on first; who normally handles it; who could help (a trusted person or someone named); instructions for taking it over; where to find what they need; how often or when; linked vault section or document; is someone identified; do they know they may be asked; are instructions recorded and current; have they confirmed they can use the agreed information; date last checked
 
-**Contacts** (`contacts`)
-- Trusted persons (list): name, relationship, phone, email, what they're trusted to do
-- Solicitors (list), accountants (list), financial advisers (list): name, firm, phone, email, country, notes
-- Executors (list): name, relationship, phone, email, notes
+**Personal Identity**
+- Full legal name; date of birth; nationality or nationalities
+- Passport details and expiry dates
+- NIE, NIF or other identity references (e.g. TIE)
+- Driving licence details and expiry
+- Where the original identity documents are kept
 
-**Important documents** (`important_documents`)
-- Where documents are stored; safe location; document notes
+**Emergency Information**
+- Blood type; allergies and severity; current medicines, doses and frequency; important medical conditions
+- Doctor, health centre or relevant healthcare service
+- Emergency contacts (list): name, relationship, telephone, email, what they should know
+- What someone should know during the first few hours
 
-## Pillar 2: Financial
+**Contacts & Trusted People**
+- Trusted people (list): name, relationship, telephone, email, what they have agreed to do
+- Solicitor, lawyer or notary; accountant or gestor; financial adviser
+- Executor or executors named in a will; other important contacts
 
-**Money and property** (`money_property`)
-- Bank accounts (list): bank name, account type, account number (the vault form calls this field "last 4 digits"; record full numbers only if the person chooses), country, online banking (yes/no, *not* the login), notes
-- Savings and investments (list): provider, type, reference, country, notes
-- Pensions (list): provider, type, reference, country, notes
-- Properties (list): address, country, ownership, mortgage provider, where the deeds are, notes
-- Loans and debts (list): lender, type, approximate balance, monthly payment, notes
+**Important Documents**
+- Where physical documents are stored
+- Important documents (list): document name, reference or last four characters, where the original is kept, review or expiry date, notes
+- Documents held by a professional; safe access instructions; additional notes
 
-**Legal and estate** (`legal_estate`)
-- Wills (list): country, date made, where the original is, solicitor or notary, notes
-- Powers of attorney (list): type, country, attorney's name, where stored, notes
-- Trusts; notes
+## Financial & Legal
 
-**Income and benefits** (`income_benefits`)
-- Employment (list); state pensions (list); benefits (list); other income
+**Money & Property**
+- Bank accounts (list): bank or provider, account type, account holder, reference or last four digits only, contact details, notes
+- Savings and investments (list): provider, type, account holder, reference or last four digits only, contact details, notes
+- Pensions (list): provider or scheme, pension holder, reference or last four characters, contact details, notes
+- Properties and where deeds are held
+- Loans, mortgages and other liabilities (list): lender or provider, type, account holder, reference or last four digits only, contact details, notes
+- Relevant financial contacts (list): name, organisation, role, telephone, email, notes
 
-**Utilities and household** (`utilities_household`)
-- Utilities by property (list); insurance policies (list: home, life, travel, funeral plan…); other contracts
+**Legal & Estate**
+- Current will or wills and location of originals
+- Powers of attorney; trusts or other arrangements
+- Solicitor, notary or other legal contacts
+- Countries or jurisdictions involved
+- Review dates and questions for qualified advice
 
-**Vehicles** (`vehicles`)
-- Vehicles (list); breakdown cover (list)
+**Income & Benefits**
+- Employment or self-employment details; pension income; state benefits or allowances; other regular income; relevant organisations and contacts
 
-**Living abroad** (`living_abroad`)
-- Country of residence; residency permit (TIE / certificate); foreign ID number (NIE); domicile country; local registration (padrón); tax residency; double tax treaty notes; inheritance tax notes
-- Local will; EU succession declaration (choice of law); overseas properties (list); overseas bank accounts (list); foreign pensions (list)
-- Repatriation insurance; consulate contact; local funeral director; apostille notes; who to call first abroad; local professional (gestor, abogado); language support; local power of attorney
+**Utilities & Household**
+- Electricity, gas and water accounts (list); telephone, broadband and television accounts (list): service, provider, account holder, reference or last four characters, contact details, notes
+- Local charges and community accounts (list), e.g. IBI, rubbish, community of owners
+- Home or contents insurance (list): insurer, policy type, policy holder, reference or last four characters, renewal date, claims contact, notes
+- Renewal and review dates; useful household instructions
 
-## Pillar 3: Digital
+**Vehicles**
+- Make, model and registration; ownership or finance details; insurance provider, reference and renewal; ITV or MOT details and due date; breakdown cover; where vehicle documents and spare keys are kept
 
-**Health and care** (`health_care`)
-- Medical history; care preferences; advance decisions (e.g. Canary Islands MAV, Spanish *instrucciones previas*, UK advance decision)
-- Prescriptions (list); healthcare providers (list: name, role, clinic, phone, country)
-- Health insurance (list): provider, policy number, emergency helpline, country covered, renewal date; S1 form
-- EHIC / GHIC cards (list): card type, number, expiry, holder; local doctor abroad
+## Digital Life & Health
 
-**Password vault** (`password_vault`): *hints only*
-- Password manager used; master password **hint**; where it's stored
-- Login records (list): service, username or email, password **hint**, two-factor method, recovery info, notes
+**Health & Care**
+- Relevant medical history; care preferences and practical needs
+- Healthcare providers and specialists (list): name, type, clinic, telephone, email, address, patient reference if useful, notes
+- Health insurance or entitlement (list): provider or entitlement (e.g. S1, Convenio Especial), person covered, reference, renewal date, telephone, email, notes
+- Prescriptions and pharmacy (list): medicine, dose, how often, prescriber, pharmacy, notes
+- Communication, translation or accessibility needs
+- Location of advance-care documents (e.g. MAV in the Canaries, *instrucciones previas*, UK advance decision)
 
-**Online accounts** (`online_accounts`)
-- Email accounts (list); social media (list); subscriptions (list); wishes for each (close, memorialise, keep)
+**Password & Account Access Plan**: *no passwords here*
+- Password manager or offline record used
+- Where separate recovery instructions are kept
+- Person authorised to help with account access
+- Device and account access notes; last reviewed
 
-**Digital legacy** (`digital_legacy`)
-- Domain names (list); crypto wallets (where the recovery details are kept, never the phrase itself); digital assets; instructions
+**Online Accounts & Social Media**
+- Important email accounts (list); social-media accounts (list) with closure or memorialisation wishes; paid subscriptions and memberships (list); shopping, travel or service accounts (list)
+- Cancellation, memorialisation or closure wishes; where separate access instructions are kept
 
-## Pillar 4: Heart
+**Digital Legacy Planner**
+- Digital assets and important online content; photo, video and file locations; websites, domains or online businesses; devices and where they're kept; what to preserve, transfer or close; who should handle digital wishes
 
-**Funeral wishes** (`funeral_wishes`)
-- Burial or cremation; location; music; ceremony preferences; readings; other wishes; country (where the funeral would happen)
+## Keep for later (not in the vault yet)
 
-**Memories and voice** (`memories_voice`)
-- Life story; favourite memories; values and lessons; message to family (voice notes can be recorded in the vault)
-
-**Time capsules** (`time_capsules`)
-- Up to two capsules: recipient, date to open, message
-
-**Bereavement checklist** (`bereavement_checklist`)
-- Immediate steps; who to notify; accounts to close; special instructions
-
-**Calendar reminders** (`calendar_reminders`)
-- Renewal dates; important dates; deadlines
-
-**Favourite recipes** (`favourite_recipes`)
-- Recipe name; ingredients; instructions; dietary notes; cooking tips
+These are planned for the vault's rebuild. Record them in the final part of the record for now:
+- **Funeral and care wishes:** burial or cremation, where, music, readings, ceremony (practical care preferences can go in Health & Care)
+- **Memories and life story:** favourite memories, values and lessons, messages to family
+- **Letters and time capsule:** messages to open on a chosen date
+- **Favourite recipes:** and the stories behind them
+- **Pets and treasured belongings:** who will care for pets (practical cover can also go in the Family Backup Plan), and the meaning behind belongings
+- **Living in Spain extras:** padrón, tax residency, repatriation insurance, consulate contact, local funeral director
