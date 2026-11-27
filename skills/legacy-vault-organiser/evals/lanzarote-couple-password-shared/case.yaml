@@ -1,0 +1,9 @@
+schema_version: "1.1"
+name: lanzarote-couple-password-shared
+expected_outcome: |
+  A vault-ready record for Linda and Pete organised by the Legacy Vault pillars and sections, with Person 1 and
+  Person 2 where details differ, the full account number kept in the record (full details allowed), the password
+  left out and gently replaced with a hint suggestion, gaps listed as "Still to find" (e.g. where the original
+  Spanish wills are), and one next step. Plus an emergency one-pager for Kerry with contacts, medical essentials
+  (penicillin allergy, warfarin), where-to-look items and the vault invitation, but no account, passport or TIE
+  numbers and no password.

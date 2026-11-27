@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<!--
+  Legacy Vault emergency one-pager template.
+  Replace every {{PLACEHOLDER}}. Delete any whole <section> marked data-optional
+  that has nothing to show. Repeat <li> / <tr> rows as needed.
+  SAFE INFORMATION ONLY: names, phone numbers, where things are kept, and medical
+  essentials if the person agreed. No account, policy, passport or ID numbers,
+  and no passwords or PINs.
+-->
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{FIRST_NAME}}'s emergency page</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#fcfcfd; --card:#ffffff; --ink:#151c2b; --soft:#4f5a6e; --line:#dfe3ea;
+  --navy:#1f3a7a; --amber:#d9822b; --amber-soft:#fdf1e4; --alert:#b42318;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#11151d; --card:#181e29; --ink:#eef1f6; --soft:#aab3c3; --line:#2a3242;
+    --navy:#9db6f2; --amber:#f0a45a; --amber-soft:#2b2116; --alert:#ff8a80;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#11151d; --card:#181e29; --ink:#eef1f6; --soft:#aab3c3; --line:#2a3242;
+  --navy:#9db6f2; --amber:#f0a45a; --amber-soft:#2b2116; --alert:#ff8a80;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.55 Inter,system-ui,sans-serif}
+main{max-width:760px;margin:0 auto;padding:28px 16px 40px}
+h1,h2{font-family:"Playfair Display",Georgia,serif;color:var(--navy);line-height:1.2}
+h1{font-size:clamp(28px,6vw,38px);margin:0 0 6px}
+h2{font-size:22px;margin:0 0 10px}
+.lede{color:var(--soft);margin:0 0 22px}
+section{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px;margin-bottom:16px}
+section.first{border-left:6px solid var(--amber)}
+ul{margin:0;padding-left:20px}
+li{margin:6px 0}
+table{width:100%;border-collapse:collapse}
+th,td{text-align:left;padding:8px 6px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-size:14px;color:var(--soft);font-weight:600}
+a{color:var(--navy)}
+a[href^="tel:"]{font-weight:600;white-space:nowrap}
+.alert{color:var(--alert);font-weight:600}
+.note{background:var(--amber-soft);border-radius:10px;padding:12px 14px}
+.updated{font-size:14px;color:var(--soft)}
+footer{margin-top:24px;padding:18px;border-radius:14px;background:var(--amber-soft);font-size:15px}
+footer strong{color:var(--navy)}
+@media (max-width:560px){
+  table,thead,tbody,tr,th,td{display:block}
+  thead{display:none}
+  tr{padding:8px 0;border-bottom:1px solid var(--line)}
+  td{border:0;padding:2px 0}
+}
+@media print{
+  body{background:#fff;color:#000;font-size:13px}
+  section,footer{break-inside:avoid;border-color:#bbb}
+  a{color:#000;text-decoration:none}
+}
+</style>
+</head>
+<body>
+<main>
+  <h1>{{FULL_NAME}}</h1>
+  <p class="lede">If you're reading this, {{FIRST_NAME}} may need help. Everything you need to get started is on this page. <span class="updated">Last updated {{UPDATED_DATE}}.</span></p>
+
+  <section class="first" aria-labelledby="call">
+    <h2 id="call">Who to call first</h2>
+    <table>
+      <thead><tr><th>Name</th><th>Relationship</th><th>Phone</th></tr></thead>
+      <tbody>
+        <tr><td>{{CONTACT_NAME}}</td><td>{{CONTACT_RELATIONSHIP}}</td><td><a href="tel:{{CONTACT_PHONE_DIGITS}}">{{CONTACT_PHONE}}</a></td></tr>
+      </tbody>
+    </table>
+    <p>Emergency services in Spain and across Europe: <a href="tel:112">112</a></p>
+  </section>
+
+  <section data-optional aria-labelledby="medical">
+    <h2 id="medical">Medical essentials</h2>
+    <ul>
+      <li><strong>GP:</strong> {{GP_NAME}}, <a href="tel:{{GP_PHONE_DIGITS}}">{{GP_PHONE}}</a></li>
+      <li class="alert"><strong>Allergies:</strong> {{ALLERGIES}}</li>
+      <li><strong>Conditions:</strong> {{CONDITIONS}}</li>
+      <li><strong>Medications:</strong> {{MEDICATIONS}}</li>
+      <li><strong>Health insurance:</strong> {{INSURER_NAME}}, helpline <a href="tel:{{INSURER_HELPLINE_DIGITS}}">{{INSURER_HELPLINE}}</a></li>
+    </ul>
+  </section>
+
+  <section aria-labelledby="where">
+    <h2 id="where">Where to look</h2>
+    <ul>
+      <li><strong>{{ITEM}}:</strong> {{WHERE_KEPT}}</li>
+    </ul>
+  </section>
+
+  <section data-optional aria-labelledby="people">
+    <h2 id="people">People who can help</h2>
+    <ul>
+      <li><strong>{{PERSON_NAME}}</strong> ({{PERSON_ROLE}}), <a href="tel:{{PERSON_PHONE_DIGITS}}">{{PERSON_PHONE}}</a>: {{CAN_HELP_WITH}}</li>
+    </ul>
+  </section>
+
+  <section data-optional aria-labelledby="note">
+    <h2 id="note">A note from {{FIRST_NAME}}</h2>
+    <p class="note">{{PERSONAL_NOTE}}</p>
+  </section>
+
+  <footer>
+    <strong>Everything else is kept safely in {{FIRST_NAME}}'s Legacy Vault.</strong>
+    This page holds just the essentials. Bank, pension, property and legal details, along with wishes and memories, belong somewhere secure, where trusted people can reach them when it matters.
+    Start your own at <a href="https://legacyvaultkit.com">legacyvaultkit.com</a>.
+  </footer>
+</main>
+</body>
+</html>
