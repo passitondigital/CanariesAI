@@ -16,7 +16,7 @@ These match the fields in the Expat Legacy Secrets site's `secrets` table, so a 
 | *Who this applies to* | Who the guide is for | Goes at the start of `mainContent` as a `## Who this applies to` section: bullet list of who's affected, who isn't, and any regional, Canary Islands or UK-side differences. |
 | `quickAnswer` | Direct answer | 2–4 short paragraphs answering the title, including "it depends" points. |
 | `mainContent` | The guide | Markdown with `##` headings, short paragraphs and bullets. Start with "Who this applies to". Include "In the Canary Islands", "If you live in another region" and "The UK side" sections only where relevant. |
-| `importantWarning` | The one thing not to get wrong | 1–2 short paragraphs, calm in tone, usually about deadlines, scams, or when to get professional help. |
+| `importantWarning` | The one thing worth remembering | 1–2 short paragraphs in a gentle tone, starting with "Remember…" or "Be aware…", usually about deadlines, scams, or when to get professional help. Show it on the page under a soft heading such as "Worth remembering". |
 | `steps` | What to do | 4–10 complete sentences, in order, no bullet symbols. |
 | `mistakes` | Common mistakes | 3–8 complete sentences, no bullet symbols. |
 | `checklist` | Tick-list | 6–12 complete sentences, no bullet symbols. |

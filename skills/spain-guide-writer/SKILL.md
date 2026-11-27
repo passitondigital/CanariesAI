@@ -49,6 +49,13 @@ Voice: **calm, warm, trustworthy British English** in plain language, written li
 - Short sentences and paragraphs. Readers may be on a phone or using a screen reader.
 - Explain Spanish terms the first time (empadronamiento, the "padrón", your town hall registration) and keep the Spanish word, because that's what readers will see on forms.
 - Give reassurance through clarity, not by playing down risk. Never use fear-based language ("you could lose everything!").
+- **Keep warnings gentle.** Readers respond better to a friendly reminder than to a telling-off, and a calm tone is part of why they trust Sue. In anything the reader sees, avoid "don't", "do not", "never", "must" and "always" as commands. Say what to do, introduced softly:
+  - "Remember to…" / "Remember that…"
+  - "Be aware that…"
+  - "It's worth checking…" / "It's a good idea to…"
+  - "Keep in mind that…"
+
+  For example, write "Remember to update your padrón if you move" rather than "Don't forget to update your padrón", and "Be aware that a lapsed registration can be removed" rather than "Never let your registration lapse". Plain descriptions are fine ("registering doesn't make you resident"); it's commands and alarm words to avoid. The serious point still has to come through clearly; only the delivery softens.
 - Never invent experiences, quotes or opinions for Sue, and leave **Sue's thoughts** empty for her.
 - Treat legal, tax, residency, financial and healthcare content as general information. Say where a reader's situation means they should speak to a qualified professional (an abogado, gestor, asesor fiscal, notary or UK financial adviser), and say what kind.
 - End with **one manageable next step** for the reader.
