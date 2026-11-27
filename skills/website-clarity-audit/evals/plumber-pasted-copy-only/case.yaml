@@ -1,0 +1,8 @@
+schema_version: "1.1"
+name: plumber-pasted-copy-only
+expected_outcome: |
+  Because the pasted copy has no town or service area, the first reply asks the user which town or area
+  DJ Plumbing covers before writing the report, and contains no "[your town]"-style placeholders.
+  Once given the town, it writes a scored owner-facing report that still flags the missing location on the site,
+  the vague slogan headline, no phone number (critical for emergency call-outs), no reviews and no prices,
+  treats technical checks as not checked, and uses the real town in its example rewrites. One next step.

@@ -1,0 +1,9 @@
+schema_version: "1.1"
+name: bakery-full-audit-saved-site
+expected_outcome: |
+  A full paid audit of the four-page saved site: a report with six scored areas, competitor and listings checks
+  marked as not checked (no web access), page-by-page notes for all four pages, a week-by-week action plan,
+  an automation plan focused on cake-price and opening-hours emails, paste-ready rewrites using Frome and
+  Catherine Hill, filled-in business label code with no blank or invented fields, and a valid audit-data.json.
+context:
+  scaffold_script: place-files.sh

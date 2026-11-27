@@ -1,0 +1,9 @@
+schema_version: "1.1"
+name: bakery-html-blocks-ai-crawlers
+expected_outcome: |
+  A warm, scored, owner-facing report in British English covering clarity, AI visibility, trust and automation.
+  It spots that robots.txt blocks GPTBot and ClaudeBot, that the title is just "Home", that there's no structured data,
+  that the location only appears inside an image, that there's no phone number or address, and suggests automation
+  for the repetitive cake-price and opening-hours emails. Ends with one clear next step.
+context:
+  scaffold_script: place-files.sh

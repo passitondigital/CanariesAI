@@ -1,0 +1,7 @@
+schema_version: "1.1"
+name: physio-chatgpt-visibility-question
+expected_outcome: |
+  A scored owner-facing report that recognises the site is strong on clarity and trust (high scores, not inflated
+  problems), and focuses AI-visibility advice on the real gaps: no structured data, no FAQ content, and a treatments
+  list with no descriptions or prices. Is honest that no one can guarantee ChatGPT recommendations. Automation scores
+  well because they already use online booking with reminders. One clear next step.
