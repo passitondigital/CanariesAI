@@ -1,0 +1,8 @@
+schema_version: "1.1"
+name: padron-canary-islands-no-web
+expected_outcome: |
+  A Secret draft on the padrón for Canary Islands expats, with a "Who this applies to" section separating
+  residents from winter visitors, a Canary Islands section on the resident travel discount, mainland and UK-side
+  notes where relevant, the full Secret fields, extras (promotion, related Secrets from the real list,
+  affiliate categories marked for Sue, printable checklist), an empty sueThoughts, and a valid secret-draft.json.
+  Any rule, percentage or deadline not confirmed at an official source is marked [To verify] and listed.
